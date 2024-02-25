@@ -83,3 +83,19 @@ figcaption{
         grid-column: 1/span 2;
     }
 }
+@media screen and (prefers-reduced-motion: reduce) {
+   html{
+     scroll-behavior: disable;
+   }
+}
+@media (prefers-color-scheme: dark) {
+  .grid figure{
+    background-color: black;
+    border: 5px solid black;
+    }
+  .grid figcaption{
+    color: yellow;
+    
+    
+  }
+}
